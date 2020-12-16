@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&family=Goldman:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="form">
+                <div class="f-title" id="form-title">
+                    <h1 id="title">The best survey form ever</h1>
+                    <p id="description">Please take a few minutes to help us make this world safer</p>
+                </div>
+                <form id="survey-form">
+                    <div class="user-data">
+                        <div class="user-name" id="username">
+                            <label id="name-label" class="username" for="name">Your name:</label>
+                        </div> 
+                        <div class="name-form">
+                            <input type="text" name="name-form" id="name" placeholder="Please enter your name" required="">
+                        </div>
+                        <div id="user-email">
+                            <label id="email-label" class="user-email" for="email">Email:</label>
+                        </div>
+                        <div class="mail-form">
+                            <input type="email" name="mail-form" id="email" placeholder="example@mymail.com" required="">
+                        </div>
+                    </div>
+                    <div class="user-wins" id="user-wins">
+                        <label id="number-label" for="number">Number of Mortal Combat wins</label>
+                        <input type="number" name="number" id="number" min="1" max="50" placeholder="Wins" required="">
+                    </div>
+                    <div class="user-skills" id="user-skills">
+                        <div class="skill_name"><p> Please chose Your fight skills level</p></div>
+                        <div class="skill_drop">
+                            <select name="boxing-level" id="dropdown" required>
+                                <option value="" selected>NewBee. Average fighter with low super power skills</option>
+                                <option value="">Chuck Norris. Strong fighter, crushes the bricks</option>
+                                <option value="">TheOne. One and only megasuperextra magic dude</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="user-power" id="user_superpower">
+                        <div class="sp-name"><p>Please select Your super power</p></div>
+                        <div class="sp-radio">
+                            <div class="radio-1">
+                                <input type="radio" name="super-power" id="sp-1" value="Fire Blade. Make them burn">
+                                <label for="sp-1">Fire Blade. Make them burn</label>
+                            </div>
+                            <div class="radio-2">
+                                <input type="radio" name="super-power" id="sp-2" value="Ice Blade. Are you cold out there?">
+                                <label for="sp-2">Ice Blade. Are you cold out there?</label>
+                            </div>
+                            <div class="radio-3">
+                                <input type="radio" name="super-power" id="sp-3" value="Tornado Blade. Fly baby, fly...">
+                                <label for="sp-3">Tornado Blade. Fly baby, fly...</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f-hero" id="favorite-hero">
+                        <div class="hero-name"><p id="favorite-hero_">Chose your favorite Hero</p></div>
+                        <div class="hero-checkboxes">
+                            <div class="chb-1">
+                                <input type="checkbox" name="favorite-hero" id="fh-1" value="Sub Zero. Always have a cold beer">
+                                <label for="fh-1">Sub Zero. Always have a cold beer</label>
+                            </div>
+                            <div class="chb-2">
+                                <input type="checkbox" name="favorite-hero" id="fh-2" value="Scorpion. This one have a kinda snakes in his slaves">
+                                <label for="fh-2">Scorpion. This one have a kinda snakes in his slaves</label>
+                            </div>
+                            <div class="cb-3">
+                                <input type="checkbox" name="favorite-hero" id="fh-3" value="Sonya. Dot mess with Sofy">
+                                <label for="fh-3">Sonya. Dot mess with Sofy</label>
+                            </div>
+                            <ch-b4>
+                                <input type="checkbox" name="favorite-hero" id="fh-4" value="Jax. Man with iron arms. Will hold you tight">
+                                <label for="fh-4">Jax. Man with iron arms. Will hold you tight</label>
+                            </ch-b4>
+                            <div class="ch-5">
+                                <input type="checkbox" name="favorite-hero" id="fh-5" value="Motaro. This one. You dont want meet him on the streets">
+                                <label for="fh-5">Motaro. This one. You dont want meet him on the streets</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-area" id="text-area">
+                        <div class="area-name"><p>Give us some fresh ideas</p></div>
+                        <div class="area_text">
+                            <textarea id="textarea" rows="8" cols="80" name="textarea">Your comment here</textarea>
+                        </div>
+                    </div>
+                    <div class="s-button" id="submit-button">
+                        <button id="submit" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Copyright 2020</p>
+            <p><a href="https://bordersdown.net/threads/126625-Retro-Spective-064-Mortal-Kombat">Background image source</a></p>
+        </div>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
