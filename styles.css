@@ -1,0 +1,139 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    background-image: url(https://static0.colliderimages.com/wordpress/wp-content/uploads/2016/11/mortal-kombat-screenshot.jpg);
+    max-width: 100%;
+    height: 100%;
+
+}
+.form {
+    display: flexbox;
+    justify-content: flex-start;
+    width: 40%;
+    margin: 30px 30px;
+}
+.f-title {
+    border: 1px solid rgb(50, 50, 51);
+    border-radius: 5px;
+    background-color: rgb(175, 162, 162);
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Goldman', cursive;
+    font-weight: 500;
+    color: rgb(46, 22, 17);
+}
+.f-title p {
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Goldman', cursive;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+.user-skills,
+.text-area,
+.s-button{
+    padding: 10px 10px;
+    margin: 5px 0px;
+    border: 1px solid rgb(50, 50, 51);
+    border-radius: 5px;
+    background-color: rgb(175, 162, 162);
+    font-family: 'Goldman', cursive;
+    font-weight: 200;
+    color: rgb(58, 48, 47);
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.user-wins,
+.user-data {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 5px 0px;
+    padding: 10px 10px;
+    border: 1px solid rgb(50, 50, 51);
+    border-radius: 5px;
+    background-color: rgb(175, 162, 162);
+    font-family: 'Goldman', cursive;
+    font-weight: 200;
+    color: rgb(58, 48, 47);
+    font-size: 14px;
+}
+.skill_drop select {
+    width: 100%;
+}
+.name-form,
+.mail-form,
+.sp-name,
+.hero-name {
+    margin: 5px 0px;
+    flex: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.user-power,
+.f-hero {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px 10px;
+    margin: 5px 0px;
+    border: 1px solid rgb(50, 50, 51);
+    border-radius: 5px;
+    background-color: rgb(175, 162, 162);
+    font-family: 'Goldman', cursive;
+    font-weight: 200;
+    color: rgb(58, 48, 47);
+    font-size: 14px;
+}
+.area_text {
+    overflow-y: scroll;
+    height: 100px;
+    resize: none;
+}
+.user-name,
+.user-email,
+.user-wins,
+.skill_name,
+.sp-name,
+.hero-name,
+.area-name {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+#submit {
+    background-color:rgb(248, 142, 121);
+    font-family: 'Goldman', cursive;
+    color:black;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 10px;
+    margin: 10px auto;
+    border: 2px solid black;
+}
+
+#submit:hover {
+color:rgb(248, 142, 121);
+font-family: 'Goldman', cursive;
+background-color:black;
+border: 2px solid rgb(248, 142, 121);
+transition: 0.4s;
+}
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(175, 162, 162);
+}
+.footer p {
+    margin: 5px 20px;
+}
